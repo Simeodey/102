@@ -1,14 +1,12 @@
 import "./App.css";
-import { motion } from "framer-motion";
+import { motion } from "framer-motion/dist/framer-motion";
 
 function App() {
   return (
     <div className="App">
       <motion.form 
       initial={{ x: -500 }} 
-      animate={{ x: 0 }}
-    
-      
+      animate={{ x: 0 }}  
       >
         <h1>Create An Account</h1>
         <label>
